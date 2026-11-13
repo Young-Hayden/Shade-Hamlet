@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: archerController
+  m_Controller: {fileID: 9100000, guid: 671c614b7cbb02f43a29029befa34ba0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 219a5ad3e3d80384e9ce427dcb6e558b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e691a74fa56a0614fa23450bf166bd4d, type: 2}

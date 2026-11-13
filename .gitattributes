@@ -1,0 +1,24 @@
+# Unity YAML assets stay text so diffs remain readable.
+*.cs        text
+*.md        text
+*.json      text
+*.meta      text
+*.unity     text
+*.scene     text
+*.prefab    text
+*.anim      text
+*.controller text
+
+# Media and other binary payloads must never be line-ending converted.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.exr   binary
+*.fbx   binary
+*.mp3   binary
+*.wav   binary
+*.ogg   binary
+*.ttf   binary
+*.otf   binary
+*.ico   binary
+*.zip   binary

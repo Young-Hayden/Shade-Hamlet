@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bee925b0b3376b4aa3a7d70af7b5f2c, type: 3}
+  m_Name: elder_intro
+  m_EditorClassIdentifier: 
+  id: elder_intro
+  lines:
+  - speaker: "\u8001\u836F\u5E08"
+    text: "\u662F\u4F60\uFF1F\u4E09\u5E74\u524D\u90A3\u573A\u706B\uFF0C\u6211\u628A\u4F60\u4ECE\u540E\u95E8\u62D6\u51FA\u6765\u7684\u3002"
+  - speaker: "\u8001\u836F\u5E08"
+    text: "\u5E26\u961F\u5C01\u95E8\u7684\u662F\u536B\u5175\u961F\u957F\u3002\u4ED6\u6BCF\u665A\u5DE1\u903B\uFF0C\u6000\u91CC\u4E00\u76F4\u63E3\u7740\u4E00\u5C01\u4E0D\u6562\u5BC4\u51FA\u7684\u4FE1\u3002"
+  - speaker: "\u8001\u836F\u5E08"
+    text: "\u5175\u8425\u90A3\u8FB9\u5E38\u6709\u4EBA\u8BAE\u8BBA\u90A3\u665A\u7684\u4E8B\u3002\u522B\u88AB\u53D1\u73B0\uFF0C\u542C\u6E05\u695A\u4E86\u518D\u52A8\u624B\u3002"
+  choices:
+  - choiceId: accept
+    text: "\u6211\u8BB0\u5F97\u90A3\u665A\u3002"
+    next: {fileID: 0}
+    actionId: give_clue_elder

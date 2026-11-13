@@ -1,0 +1,156 @@
+﻿Assets/Animation/enemy/2Hand-Bow-Attack1.anim
+Assets/Animation/enemy/2Hand-Sword-Attack5.anim
+Assets/Animation/enemy/archerController.overrideController
+Assets/Animation/enemy/enemyController.controller
+Assets/Animation/enemy/RPG-Character@Armed-Death1.FBX
+Assets/Animation/hero/2Hand-Sword-Attack5.anim
+Assets/Animation/hero/Equipped Sword.prefab
+Assets/Animation/hero/heroController.controller
+Assets/Animation/hero/HumanoidIdle.anim
+Assets/Animation/hero/HumanoidWalk.anim
+Assets/Animation/hero/RPG-Character@Armed-Death1.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/HumanoidRun.fbx
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_01.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_02.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_04.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_05.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_11.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_23.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingBar_Long_size.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Menu_button_02_Little_On.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/SFX/Death/death5.mp3
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/SFX/SFX_Attack hit sound 10.wav
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/SFX/SFX_Attack hit sound 5.wav
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.mat
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Arrow.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Arrow/Materials & Meshes/Simple Arrow.fbx
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.fbx
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.mat
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Bow/Materials and Model/Simple Bow.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Bow/Prefab/Simple Bow.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Materials/FX_Base.mat
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Materials/FX_Glow.mat
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Materials/FX_Lightray.mat
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Materials/UnlitVertexColour_Alpha.shader
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_Lightray.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_BloodSplatter.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fire.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Lightray.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Smoke.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/Characters_POLYGON_Knights.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Fence_02.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Base_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Hut_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_Village_02.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Bush_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_Large_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMound_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Rock_015.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_03.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Crate_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Prop_Pumpkin_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Rapier_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Wep_Sword_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Black.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Blue.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Orange.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Characters_Texture_Red.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/PolyAdventureTexture_01.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/PolygonSamurai_Tex_01.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01.png
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/BlueTexture.jpg
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/DarkBlueTexture.jpg
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/NewLayer 1.terrainlayer
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/NewLayer 2.terrainlayer
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/NewLayer 3.terrainlayer
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/NewLayer.terrainlayer
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/RedTexture.jpg
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/Simple Textures/YellowTexture.jpg
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/TT_Brown Mud.BMP
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/TT_Green Grass.BMP
+Assets/MainAsset/MainAsset/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/Potion_01(Red)_No BG.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Chest_04_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Dagger_01_Nobg.png
+Assets/MainAsset/MainAsset/Resources/BGM1.mp3
+Assets/MainAsset/MainAsset/Scenes/Environment.prefab
+Assets/MainAsset/MainAsset/Scenes/Sandbox/Course Sandbox Terrain.asset
+Assets/MainAsset/MainAsset/Scenes/Sandbox/LightingData.asset
+Assets/MainAsset/MainAsset/Scenes/Sandbox/Lightmap-0_comp_dir.png
+Assets/MainAsset/MainAsset/Scenes/Sandbox/Lightmap-0_comp_light.exr
+Assets/MainAsset/MainAsset/Scenes/Sandbox/Lightmap-0_comp_shadowmask.png
+Assets/MainAsset/MainAsset/Scenes/Sandbox/ReflectionProbe-0.exr
+Assets/MainAsset/MainAsset/Scenes/SandboxSettings.lighting
+Assets/MainAsset/MainAsset/Scenes/Shared/Dirt layer.terrainlayer
+Assets/MainAsset/MainAsset/Scenes/Shared/Green Grass.terrainlayer
+Assets/MainAsset/MainAsset/Scenes/Shared/Light dirt layer.terrainlayer
+Assets/MainAsset/MainAsset/Scenes/Shared/Light green grass layer.terrainlayer
+Assets/Perfabs/AttackTriggerBox.prefab
+Assets/Perfabs/EnemyGroup.prefab
+Assets/Perfabs/HealthPotionPickup.prefab
+Assets/Perfabs/Hero.prefab
+Assets/Perfabs/StealthArrow.prefab
+Assets/Scenes/RPG游戏.unity
+Assets/Scenes/RPG游戏/NavMesh.asset
+Assets/Scenes/界面.scene
+Assets/Script/ArrowProjectile.cs
+Assets/Script/AssassinationController.cs
+Assets/Script/AttackTriggerBox.cs
+Assets/Script/CLick.cs
+Assets/Script/CombatFeedback.cs
+Assets/Script/EnemyAnimator.cs
+Assets/Script/EnemyController.cs
+Assets/Script/EscapePoint.cs
+Assets/Script/GameFlow.cs
+Assets/Script/GameHUD.cs
+Assets/Script/GameMusic.cs
+Assets/Script/GuardSenses.cs
+Assets/Script/HealthPotionPickup.cs
+Assets/Script/HeroAnimator.cs
+Assets/Script/HeroCamera.cs
+Assets/Script/HeroController.cs
+Assets/Script/HeroDirectMovement.cs
+Assets/Script/HPScript.cs
+Assets/Script/IntelPickup.cs
+Assets/Script/InventoryUI.cs
+Assets/Script/LootDropper.cs
+Assets/Script/MissionController.cs
+Assets/Script/PauseMenu.cs
+Assets/Script/PotionInventory.cs
+Assets/Script/RangedAttack.cs
+Assets/Script/SmokeAbility.cs
+Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+Packages/com.unity.ugui/Runtime/UI/Core/Text.cs

@@ -1,0 +1,13 @@
+# P1 live log — appended by village-stealth-action-plan, watched by acceptance session
+[15:24:47] PROGRESS | P1 已接入潜行状态、10处隐藏区域、噪声事件、警戒HUD和情境相机
+[15:24:47] TEST | P1专项通过：normal=0.400、sneak=0.220、隐藏区进出、烟雾、声音半径、HUD
+[15:24:47] TEST | 回归已通过：DirectMovement、FullHud、PauseMenu、Smoke、PotionRuntime、Mission
+[15:24:47] ERROR | DirectAttack旧夹具在Start前禁用敌人导致HP=0；已改为等待初始化，生产伤害逻辑未改
+[15:41:14] TEST | DirectAttack在清除旧夹具并通过初始化等待后通过；Assassination通过
+[15:41:14] ERROR | 旧ArcherEventOnlyTest在Start前写目标导致HP=100/arrows=0；未改生产逻辑
+[15:41:14] SKIP | 覆盖既有 ArcherEventOnlyTest.cs 的权限被拒；未重试覆盖，改新建 P1ArcherEventOnlyTests.cs 做初始化安全回归
+[16:26:52] TEST | P1Archer通过 heroHP=95；P1GuardSenses通过；P1Perception通过 normalAlert=0.115/sneakAlert=0.073/远程目标清除=true
+[16:26:52] TEST | 后续回归通过：Assassination、DeathFlow、InventoryUI、SceneSwitch；4个巡逻点PathComplete
+[16:26:52] PROGRESS | 最终编译0错误/0警告；磁盘重载与10处隐藏区域/组件/相机参数持久化通过；稳定截图已读图
+[16:26:52] PROGRESS | 报告已写 docs/superpowers/reports/2026-11-11-P1-stealth-verification.md；progress.md 已更新
+[16:26:52] DONE | P1阶段完成并保存；P2尸体发现/有限警报扩散尚未开始；真实键鼠仍待用户试玩

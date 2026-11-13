@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebd9e7c93f38184c8b5004f463cb3e1, type: 3}
+  m_Name: chapter_01
+  m_EditorClassIdentifier: 
+  chapterId: chapter_01
+  openingSubtitles:
+  - "\u4E09\u5E74\u524D\uFF0C\u5F71\u6751\u4E00\u573A\u5927\u706B\uFF0C\u70E7\u6389\u4E86\u4F60\u7684\u5168\u90E8\u3002"
+  - "\u4ECA\u5929\uFF0C\u4F60\u56DE\u6751\u4E86\u3002"
+  requiredClueIds:
+  - elder_testimony
+  - family_letter
+  - barracks_eavesdrop
+  confrontDialogue: {fileID: 11400000, guid: ed60abbaab8aa9b4e9a5f35de5b3ea17, type: 2}
+  finalChoiceDialogue: {fileID: 11400000, guid: 4519a5cc60c1ee04ebc6bd8acfcce15f, type: 2}
+  killEndingSubtitles:
+  - "\u5200\u843D\u4E0B\u53BB\u7684\u65F6\u5019\uFF0C\u4F60\u6CA1\u6709\u95EE\u51FA\u90A3\u4E2A\u540D\u5B57\u3002"
+  - "\u590D\u4EC7\u5B8C\u6210\u4E86\uFF0C\u771F\u76F8\u5374\u968F\u4ED6\u4E00\u8D77\u6B7B\u53BB\u3002"
+  killAfterTruthEndingSubtitles:
+  - "\u540D\u518C\u88AB\u8840\u6D78\u900F\uFF0C\u53EA\u5269\u4E00\u4E2A\u540D\u5B57\u8FD8\u80FD\u8FA8\u8BA4\u3002"
+  - "\u6751\u91CC\u5F00\u59CB\u6328\u5BB6\u641C\u6355\u3002\u4F60\u5E26\u7740\u90A3\u534A\u4E2A\u540D\u5B57\u79BB\u5F00\u3002"
+  spareEndingSubtitles:
+  - "\u4ED6\u7559\u4E0B\u540D\u518C\uFF0C\u671D\u6751\u53E3\u8D70\u53BB\uFF0C\u6CA1\u6709\u56DE\u5934\u3002"
+  - "\u540D\u518C\u6307\u5411\u771F\u6B63\u4E0B\u4EE4\u7684\u4EBA\u3002\u4F60\u7684\u4EC7\uFF0C\u8FD8\u6CA1\u62A5\u5B8C\u3002"
+  targetDisplayName: "\u536B\u5175\u961F\u957F"

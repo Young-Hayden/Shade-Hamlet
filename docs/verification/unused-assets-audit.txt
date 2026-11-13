@@ -1,0 +1,259 @@
+﻿USED_DEPENDENCIES=156
+ALL_PROJECT_ART_ASSETS=449
+UNUSED_ASSETS=335
+GROUP Animation count=3 prefab=1 model=0 texture=0 anim=2
+GROUP Animations count=13 prefab=0 model=12 texture=0 anim=1
+GROUP BOXOPHOBIC count=38 prefab=8 model=9 texture=11 anim=0
+GROUP Fantasy RPG UI Sample count=24 prefab=0 model=0 texture=24 anim=0
+GROUP Game count=55 prefab=39 model=0 texture=0 anim=1
+GROUP GameDev.tv Assets count=109 prefab=6 model=3 texture=76 anim=0
+GROUP Other count=11 prefab=0 model=0 texture=5 anim=0
+GROUP Perfabs count=1 prefab=1 model=0 texture=0 anim=0
+GROUP SimpleFX count=29 prefab=20 model=5 texture=0 anim=0
+GROUP Synty - Polygon Student Sample count=35 prefab=18 model=11 texture=0 anim=0
+GROUP Terrain Textures count=8 prefab=0 model=0 texture=2 anim=0
+GROUP Universal Gold Icons Sample count=9 prefab=0 model=0 texture=9 anim=0
+=== UNUSED PREFABS ===
+Assets/Animation/enemy/Equipped Sword.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence A.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Fence B.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree A.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - FirTree B.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass A.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Grass B.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock A.prefab
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly - Rock B.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Club/Prefab/SM_Wep_Club_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Hoe/Prefab/Dirty Old Hoe.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pitchfork/Prefab/SM_Wep_Pitchfork_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Rod of Death/Prefab/Rod Of Death.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Self Heal/SH_VFX.prefab
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Simple Arrow/Prefab/Simple Arrow.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_DirtSplatter.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_FlameThrower.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_GunFlash.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_PoolSplash_03.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Rubble.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_Steam.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_TireSmoke.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Prefabs/FX_WaterSplatter.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab
+Assets/MainAsset/MainAsset/Game/Characters/Character.prefab
+Assets/MainAsset/MainAsset/Game/Characters/Enemies/Archer.prefab
+Assets/MainAsset/MainAsset/Game/Characters/Enemies/Enemy.prefab
+Assets/MainAsset/MainAsset/Game/Characters/Paths/Patrol Path.prefab
+Assets/MainAsset/MainAsset/Game/Characters/Player/Player.prefab
+Assets/MainAsset/MainAsset/Game/Core/Camera.prefab
+Assets/MainAsset/MainAsset/Game/Core/Core.prefab
+Assets/MainAsset/MainAsset/Game/Core/Fader.prefab
+Assets/MainAsset/MainAsset/Game/Core/Follow Camera.prefab
+Assets/MainAsset/MainAsset/Game/Core/PersistanObject.prefab
+Assets/MainAsset/MainAsset/Game/Core/Portal.prefab
+Assets/MainAsset/MainAsset/Game/Core/Saving.prefab
+Assets/MainAsset/MainAsset/Game/Effects/Arrow Impact Effect.prefab
+Assets/MainAsset/MainAsset/Game/Effects/Fireball Impact.prefab
+Assets/MainAsset/MainAsset/Game/Effects/Level Up.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Bow Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Default Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Fireball Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Health Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Pickup Spawner.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Root Weapon Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Pickups/Sword Pickup.prefab
+Assets/MainAsset/MainAsset/Game/Projectiles/Arrow Projectile Blue.prefab
+Assets/MainAsset/MainAsset/Game/Projectiles/Arrow Projectile Red.prefab
+Assets/MainAsset/MainAsset/Game/Projectiles/Root Arrow Projectile.prefab
+Assets/MainAsset/MainAsset/Game/Projectiles/Root Fireball Projectile.prefab
+Assets/MainAsset/MainAsset/Game/UI/HUD.prefab
+Assets/MainAsset/MainAsset/Game/UI/In Game/Damage Text Spawner.prefab
+Assets/MainAsset/MainAsset/Game/UI/In Game/Damage Text.prefab
+Assets/MainAsset/MainAsset/Game/UI/In Game/Health Bar.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory Canvas.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory/ActionSlot.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory/EquipmentSlotUI.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory/InventoryItem.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory/InventorySlot.prefab
+Assets/MainAsset/MainAsset/Game/UI/Inventory/ItemTooltip.prefab
+Assets/MainAsset/MainAsset/Game/Weapons/Bow/Equipped Bow.prefab
+Assets/MainAsset/MainAsset/Game/Weapons/Sword/Equipped Sword.prefab
+Assets/MainAsset/MainAsset/Game/Weapons/Unarmed/Equipped Unarmed.prefab
+Assets/Perfabs/Soldier.prefab
+=== UNUSED MODELS / ANIMATION ASSETS ===
+Assets/Animation/enemy/HumanoidIdle.anim
+Assets/Animation/enemy/HumanoidWalk.anim
+Assets/MainAsset/MainAsset/Asset Packs/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/2Hand-Club/RPG-Character@2Hand-Club-Attack8.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack2.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Attack3.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Armed/RPG-Character@Armed-Death1.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Item/RPG-Character@Item-Attack-L2.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Sword/RPG-Character@Sword-Attack-R6.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/HumanoidIdle.anim
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/HumanoidIdle.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/HumanoidWalk.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
+Assets/MainAsset/MainAsset/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence A.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Fence B.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree A.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - FirTree B.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass A.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Grass B.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock A.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Rock B.FBX
+Assets/MainAsset/MainAsset/Asset Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly - Terrain.FBX
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Club/Materials and Model/SM_Wep_Club_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Hoe/Materials and Model/Dirt Old Hoe.fbx
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pitchfork/Materials and Model/SM_Wep_Pitchfork_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_GunFlash.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_PoolSplash_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_PoolSplash_02.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_PoolSplash_03.fbx
+Assets/MainAsset/MainAsset/Asset Packs/SimpleFX/Models/FX_Rubble.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Door_02.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Bld_House_Roof_Wood_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_FloorTile_05.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Flower_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_GroundMounds_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Hill_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tile_Grass_01.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Tree_010.fbx
+Assets/MainAsset/MainAsset/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_TreeLog_01.fbx
+Assets/MainAsset/MainAsset/Game/Characters/Character.controller
+Assets/MainAsset/MainAsset/Game/UI/In Game/Damage Text Fade.anim
+Assets/MainAsset/MainAsset/Game/Weapons/Bow/Bow Animator Override.overrideController
+Assets/MainAsset/MainAsset/Game/Weapons/Fireball/Fireball Animator Override.overrideController
+Assets/MainAsset/MainAsset/Game/Weapons/Sword/Sword Animator Override.overrideController
+=== UNUSED GAME ASSETS ===
+Assets/MainAsset/MainAsset/Game/Cinematics/Intro Sequence Timeline.playable
+Assets/MainAsset/MainAsset/Game/Core/Default Enemy Drops.asset
+Assets/MainAsset/MainAsset/Game/Core/Progression.asset
+Assets/MainAsset/MainAsset/Game/Weapons/Resources/Bow Blue Projectile.asset
+Assets/MainAsset/MainAsset/Game/Weapons/Resources/Bow Red Projectile.asset
+Assets/MainAsset/MainAsset/Game/Weapons/Resources/Fireball.asset
+Assets/MainAsset/MainAsset/Game/Weapons/Resources/Sword.asset
+Assets/MainAsset/MainAsset/Game/Weapons/Resources/Unarmed.asset
+Assets/MainAsset/MainAsset/Game/Wearable/Resources/Hat.asset
+Assets/MainAsset/MainAsset/Game/Wearable/Resources/Healthy Hat.asset
+=== UNUSED UI / ICON TEXTURES ===
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_06.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_bot.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-bot.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-top.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-bot.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-top.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_top.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_boots.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_chest.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_gloves.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_helm.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_neck.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_pants.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_shield.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_weapon.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Armor_icon.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Button_Desk_short.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Intelligence_icon.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Power_icon.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingLine_Long_size.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_10_On.png
+Assets/MainAsset/MainAsset/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_23_On.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01 BLUE.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01 GREEN.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01 PURPLE.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01 RED.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01 YELLOW.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/basic_01.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_01.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_02.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_03.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_04.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_05.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_06.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_07.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_08.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_09.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_10.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_11.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_12.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_13.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_14.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_15.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_16.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_17.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_18.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_19.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_20.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_21.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_22.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_23.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_24.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_25.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_26.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_27.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_28.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_29.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_30.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_31.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_32.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_33.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_34.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_35.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_36.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_37.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_38.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_39.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_40.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_41.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_42.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_43.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_44.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_45.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_46.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_47.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_48.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_49.png
+Assets/MainAsset/MainAsset/Asset Packs/GameDev.tv Assets/Pixel Cursors/Cursors/Bonus_50.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/Potion_01(Purple)_No BG.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Boots_1_b_nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Gloves_02_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Hammer_01_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Head_01_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Head_08_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Pants_Nobg.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_scroll_NOBG.png
+Assets/MainAsset/MainAsset/Asset Packs/Universal Gold Icons Sample/T_Shield_01_Nobg.png

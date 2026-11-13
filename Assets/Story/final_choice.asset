@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bee925b0b3376b4aa3a7d70af7b5f2c, type: 3}
+  m_Name: final_choice
+  m_EditorClassIdentifier: 
+  id: final_choice
+  lines:
+  - speaker: "\u536B\u5175\u961F\u957F"
+    text: "\u5C01\u95E8\u4EE4\u662F\u4E0A\u9762\u7B7E\u7684\uFF0C\u6211\u53EA\u662F\u6267\u884C\u3002\u540D\u518C\u5728\u8FD9\u91CC\uFF0C\u7B7E\u540D\u90FD\u5728\u3002"
+  - speaker: "\u536B\u5175\u961F\u957F"
+    text: "\u4F60\u53EF\u4EE5\u73B0\u5728\u6740\u4E86\u6211\uFF0C\u4E5F\u53EF\u4EE5\u62FF\u7740\u5B83\u53BB\u627E\u771F\u6B63\u4E0B\u4EE4\u7684\u4EBA\u3002"
+  choices:
+  - choiceId: kill
+    text: "\u6740"
+    next: {fileID: 0}
+    actionId: ending_kill
+  - choiceId: spare
+    text: "\u653E"
+    next: {fileID: 0}
+    actionId: ending_spare
