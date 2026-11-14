@@ -290,7 +290,7 @@
 - 报告：`docs/superpowers/reports/2026-11-14-chapter1-polish-verification.md`。
 - 备份：`D:\Unity\backups\RPG_Project_2026-11-14_chapter1-polish\`；场景 MD5 `154103b8e911b95ad1c3aebf30a76d6e`。
 - 全量回归 **12/12 PASS**，三剧情路径全 PASS；暗部像素占比 36.3%→13.7%；最终编辑态、场景无未保存改动。
-- GitHub 上次提交 `2c02b91` 已在本地；github.com 可访问，但 token 轮换后凭据管理器要求重新登录，非交互推送返回 `unable to get password from user`。本次 polish 新改动尚未提交。
+- GitHub 已推送：`2c02b91`（操作/动画/碰撞）与 `ffd8d80`（第一章夜景与灯笼）；远程 `Shade-Hamlet` main 已核对为 `ffd8d80a6f5301bf52681d2917b2e5cfb0a38fed`。直连推送上传被重置，改走本机 Clash `127.0.0.1:7897` 代理成功。
 
 
 
