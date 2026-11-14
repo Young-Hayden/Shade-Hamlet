@@ -315,7 +315,7 @@
 - 排查假阳性：潜行按剪辑名误读（实际状态哈希正确）；死亡动画在剧情 `timeScale=0` 下测试导致停帧（正常死亡 `Armed-Death1` 正常）。
 - 报告：`docs/superpowers/reports/2026-11-14-full-systems-audit.md`。
 - 最终回归 **11/11 PASS**，三剧情路径全 PASS；修复后场景 MD5 `0bba043a98a82fccf3f2009b386e31b9`，`HeroDirectMovement.cs` MD5 `17a0ce1ebb2a831a63eafa25f9703d5e`。
-- 未提交；等待用户确认后同步发布副本并推送。
+- 已提交并推送：`c43f8e4`（远程 `Shade-Hamlet/main` 已核对一致）；工作区干净。
 
 - 未提交；等待用户确认后再同步发布副本并推送。
 
