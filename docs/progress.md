@@ -290,6 +290,36 @@
 - 报告：`docs/superpowers/reports/2026-11-14-chapter1-polish-verification.md`。
 - 备份：`D:\Unity\backups\RPG_Project_2026-11-14_chapter1-polish\`；场景 MD5 `154103b8e911b95ad1c3aebf30a76d6e`。
 - 全量回归 **12/12 PASS**，三剧情路径全 PASS；暗部像素占比 36.3%→13.7%；最终编辑态、场景无未保存改动。
+
+## 2026-11-14 第一章敌人阵容、过渡与主菜单改造
+
+- [x] 删除 `Archer` 场景实例；弓手专项回归退役，脚本/资产暂留。
+- [x] 新增 4 名剑兵：东侧 `SwordGuard_East_A/B`、北侧 `SwordGuard_North_A/B`，距出生点 47–60m；每名 3 个巡逻点，均无 `StoryTarget`。
+- [x] 北侧原巡逻区被 NavMesh 分区切断，按网格搜索迁移到 `(16,28)` / `(-20,28)`，并剔除 2 个不可达点。
+- [x] 剑兵原地转圈根因：`*_PatrolPoints` 被挂在剑兵子物体下，目标随人物移动/转向；已移到独立 `SwordGuardPatrolPoints` 根节点，世界坐标不变。6 秒实测位移 3.09–5.44m，巡逻点静止 4/4。
+- [x] 场景过渡 `SceneTransition`：0.7s 淡出、章节标题至少 1s、异步加载、0.8s 淡入；过渡冻结移动；开场字幕延后到淡入结束。
+- [x] 主菜单电影化重做：实景背景 + 暗角 + 左侧标题/副标题/标语 + 两个金色按钮；按钮文字对比度已修。
+- 验证：roster 静态全 PASS；4/4 剑兵实际巡逻；击杀不改变剧情；20 秒地图穿模 0；菜单 7 项全 PASS；真实按钮点击完成过渡并显示剧情。
+- 产物：`docs/superpowers/specs/2026-11-14-chapter1-roster-menu-design.md`、`docs/superpowers/plans/2026-11-14-chapter1-roster-menu.md`、验收报告；证据 `docs/verification/2026-11-14-roster-menu/`。
+- 首轮回归两项测试夹具未适配：感知测试随机选中远处剑兵（改为最近目标），死亡流程第二次切换发生在过渡未结束时（等待窗口改 3.2s）；复测通过，生产行为未放宽。
+- 最终回归 **11/11 PASS**（弓手专项退役），三剧情路径全 PASS；编辑态、场景无未保存改动。
+- 场景 MD5 `0bba043a98a82fccf3f2009b386e31b9`，菜单 MD5 `07e7ec01f7131937a2fae4212618650f`。
+- 巡逻根因修复：4 个巡逻点根节点移到 `SwordGuardPatrolPoints`；6 秒实测位移 3.09–5.44m、巡逻点静止 4/4。
+
+## 2026-11-14 全系统审计（寻路/攻击/状态机）
+
+- 角色状态：Idle/Walk/Run/Sneak（状态哈希 -1383648164）/停止回 Idle/攻击 `Sword-Attack-R6`/死亡 `Armed-Death1` 全部通过。
+- 攻击：2m 不命中、1m 扣 20、冷却内不重复、冷却后可再攻击、攻击盒最终 0；敌人近战 4 秒扣 15（3×5）。
+- **发现并修复攻击滑步**：攻击期间移动 60 帧原本滑行 0.85m；`HeroDirectMovement.Move` 加 `isAttack` 站定门槛，修复后 0.00m，攻击结束后恢复移动。
+- Guard 状态机：Patrol→Chase→Search→Patrol 通过；5 个敌人均 onMesh、路径完整、1 秒位移 1.16–1.76m。
+- 排查假阳性：潜行按剪辑名误读（实际状态哈希正确）；死亡动画在剧情 `timeScale=0` 下测试导致停帧（正常死亡 `Armed-Death1` 正常）。
+- 报告：`docs/superpowers/reports/2026-11-14-full-systems-audit.md`。
+- 最终回归 **11/11 PASS**，三剧情路径全 PASS；修复后场景 MD5 `0bba043a98a82fccf3f2009b386e31b9`，`HeroDirectMovement.cs` MD5 `17a0ce1ebb2a831a63eafa25f9703d5e`。
+- 未提交；等待用户确认后同步发布副本并推送。
+
+- 未提交；等待用户确认后再同步发布副本并推送。
+
+
 - GitHub 已推送：`2c02b91`（操作/动画/碰撞）与 `ffd8d80`（第一章夜景与灯笼）；远程 `Shade-Hamlet` main 已核对为 `ffd8d80a6f5301bf52681d2917b2e5cfb0a38fed`。直连推送上传被重置，改走本机 Clash `127.0.0.1:7897` 代理成功。
 
 

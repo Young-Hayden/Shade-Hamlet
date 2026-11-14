@@ -8,14 +8,14 @@ public class CLick : MonoBehaviour
     {
         Debug.Log("Button Clicked");
         StorySession.Reset();
-        SceneManager.LoadScene("RPG游戏");
+        SceneTransition.LoadScene("RPG游戏", "第一章 · 回村的人", "调查真相 · 潜行抉择");
     }
 
     // 退出游戏：RPG游戏场景 → 返回开始界面
     public void BackToStart()
     {
         Debug.Log("Back To Start");
-        SceneManager.LoadScene("界面");
+        SceneTransition.LoadScene("界面", "影村", "");
     }
 
     // 退出游戏：开始界面和菜单共用。

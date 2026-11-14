@@ -1,0 +1,7 @@
+PASS runtime guards=4 archer=False
+SwordGuard_North_A moved=0.42 state=Patrol targetCount=3
+SwordGuard_East_A moved=1.65 state=Patrol targetCount=3
+SwordGuard_North_B moved=1.58 state=Patrol targetCount=3
+SwordGuard_East_B moved=1.23 state=Patrol targetCount=3
+PASS guards patrol moved=4/4
+PASS guard kill dead=True kills 0->1 story=Investigate->Investigate

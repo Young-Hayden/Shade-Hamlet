@@ -1,0 +1,7 @@
+PASS menu background
+PASS vignette
+PASS title=影 村 size=112
+PASS subtitle=第一章 · 回村的人 size=34
+PASS buttons=2 labels=开始游戏/退出游戏
+PASS left-aligned buttons
+PASS button wiring persistent=1/1

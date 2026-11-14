@@ -1,0 +1,3 @@
+duringAttack=0.00 afterAttack=0.91
+PASS hero does not slide while attacking
+PASS hero moves again after attack

@@ -1,0 +1,8 @@
+PASS archer removed
+PASS sword guard count=4
+PASS SwordGuard_North_A components=True senses=True anim=True hp=True loot=True agent=True noStory=True startDist=60.3 patrols=3 bad=
+PASS SwordGuard_East_A components=True senses=True anim=True hp=True loot=True agent=True noStory=True startDist=46.8 patrols=3 bad=
+PASS SwordGuard_North_B components=True senses=True anim=True hp=True loot=True agent=True noStory=True startDist=52.7 patrols=3 bad=
+PASS SwordGuard_East_B components=True senses=True anim=True hp=True loot=True agent=True noStory=True startDist=53.2 patrols=3 bad=
+PASS story captain intact
+PASS story paths

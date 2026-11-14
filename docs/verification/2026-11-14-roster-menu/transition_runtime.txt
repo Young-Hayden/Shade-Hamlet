@@ -1,0 +1,4 @@
+menu=界面 click=True
+t=0.45 overlay=True active=True alpha=1 busy=True
+t=1.0 scene=RPG游戏 alpha=1 busy=True storyUi=False
+final scene=RPG游戏 busy=False overlayActive=False hero=True storyUi=True timeScale=0

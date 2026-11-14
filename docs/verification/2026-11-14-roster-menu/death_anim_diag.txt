@@ -1,0 +1,9 @@
+t=0.1 death=True layerWeight=1 state=189409114 norm=0.9194404 inTrans=True next=1475898060 clip=HumanoidIdle
+t=0.2 death=True layerWeight=1 state=1475898060 norm=0.1915144 inTrans=False next=0 clip=Armed-Death1
+t=0.3 death=True layerWeight=1 state=1475898060 norm=0.2850821 inTrans=False next=0 clip=Armed-Death1
+t=0.4 death=True layerWeight=1 state=1475898060 norm=0.3795004 inTrans=False next=0 clip=Armed-Death1
+t=0.5 death=True layerWeight=1 state=1475898060 norm=0.4760043 inTrans=False next=0 clip=Armed-Death1
+t=0.6 death=True layerWeight=1 state=1475898060 norm=0.5705234 inTrans=False next=0 clip=Armed-Death1
+t=0.7 death=True layerWeight=1 state=1475898060 norm=0.6644397 inTrans=False next=0 clip=Armed-Death1
+t=0.8 death=True layerWeight=1 state=1475898060 norm=0.7588573 inTrans=False next=0 clip=Armed-Death1
+dead=True

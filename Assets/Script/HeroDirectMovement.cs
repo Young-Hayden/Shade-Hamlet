@@ -44,7 +44,22 @@ public class HeroDirectMovement : MonoBehaviour
     // 显式步长入口让碰撞与移动可用确定性测试验证；正常运行仍使用 Time.deltaTime。
     public void Move(Vector2 input, bool running, float deltaTime)
     {
+        if (SceneTransition.BlocksGameplay)
+        {
+            IsMoving = false;
+            IsRunning = false;
+            IsSneaking = false;
+            return;
+        }
         if (hero == null || hero.IsDead || controller == null || !controller.enabled)
+        {
+            IsMoving = false;
+            IsRunning = false;
+            IsSneaking = false;
+            return;
+        }
+        // 攻击动画期间站定，避免人物一边挥剑一边滑行。
+        if (hero.isAttack)
         {
             IsMoving = false;
             IsRunning = false;

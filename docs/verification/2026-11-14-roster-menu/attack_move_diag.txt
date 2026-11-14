@@ -1,0 +1,3 @@
+pre timeScale=0 cc=True transition=False camF=(-0.01, -0.47, -0.88) isAttack=False
+after attack call isAttack=True state=HumanoidIdle
+fixed attack move=1.603131 IsMoving=True isAttack=True pos=(-14.02, 1.60, -26.60)

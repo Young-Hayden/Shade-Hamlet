@@ -38,6 +38,16 @@ public class GameFlow : MonoBehaviour
             .onClick.AddListener(ReturnToMain);
     }
 
-    public void RestartGame() { Time.timeScale = 1f; SceneManager.LoadScene(SceneManager.GetActiveScene().name); }
-    public void ReturnToMain() { Time.timeScale = 1f; StorySession.Reset(); SceneManager.LoadScene("界面"); }
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneTransition.LoadScene(SceneManager.GetActiveScene().name, "第一章 · 回村的人", "重新开始");
+    }
+
+    public void ReturnToMain()
+    {
+        Time.timeScale = 1f;
+        StorySession.Reset();
+        SceneTransition.LoadScene("界面", "影村", "");
+    }
 }

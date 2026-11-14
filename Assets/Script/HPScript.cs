@@ -49,7 +49,6 @@ public class HPScript : MonoBehaviour
     // 创建一个进入"RPG游戏"场景的函数
     public void EnterRPGGame()
     {
-        // Application.LoadLevel已弃用，改用SceneManager。
-        SceneManager.LoadScene("RPG游戏");
+        SceneTransition.LoadScene("RPG游戏", "第一章 · 回村的人", "调查真相 · 潜行抉择");
     }
 }

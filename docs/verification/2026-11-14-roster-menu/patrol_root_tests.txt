@@ -1,0 +1,5 @@
+PASS SwordGuard_North_A patrolRootParent=SwordGuardPatrolPoints isChildOfGuard=False
+PASS SwordGuard_East_A patrolRootParent=SwordGuardPatrolPoints isChildOfGuard=False
+PASS SwordGuard_North_B patrolRootParent=SwordGuardPatrolPoints isChildOfGuard=False
+PASS SwordGuard_East_B patrolRootParent=SwordGuardPatrolPoints isChildOfGuard=False
+PASS independent patrol roots 4/4

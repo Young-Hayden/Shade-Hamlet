@@ -77,8 +77,9 @@ public class StoryDirector : MonoBehaviour
 
     private IEnumerator InitializeStory()
     {
-        // 等所有角色 Start 完成 HP/引用初始化，再暂停其控制。
+        // 等所有角色 Start 完成 HP/引用初始化；若从主菜单带过渡进入，等黑场淡入结束再开始剧情。
         yield return null;
+        if (SceneTransition.BlocksGameplay) yield return SceneTransition.WaitForGameplayReady();
         if (StoryCheckpoint.Current != null) ApplyCheckpoint();
         else PlayOpening();
     }

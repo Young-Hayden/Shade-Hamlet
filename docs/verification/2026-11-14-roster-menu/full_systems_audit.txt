@@ -1,0 +1,28 @@
+### 1 hero animator states
+idle=189409114(HumanoidIdle)
+walk=1526720538(HumanoidWalk)
+run=859178273(HumanoidRun)
+sneak=-1383648164(HumanoidWalk)
+stop=-1383648164(HumanoidWalk)
+### 2 attack range/cooldown/attack-box cleanup
+far2m hp=100 boxes=1
+near1m hp=80 boxes=0
+attempt during cooldown hp=80 same=True
+after cooldown hp=60
+boxes after sequence=0
+### 3 moving during attack
+travelWhileAttacking=0.00 state=-1205283717(Sword-Attack-R6)
+### 4 enemy melee attack
+hero hp 100 -> 85 enemyState=Chase isAttack=True
+### 5 guard state machine
+afterDamage=Chase
+afterLostSight=Search
+afterSearchDuration=Patrol
+### 6 navigation
+SwordGuard_North_A moved=1.21 onMesh=True path=PathComplete
+SwordGuard_East_A moved=1.38 onMesh=True path=PathComplete
+SwordGuard_North_B moved=1.75 onMesh=True path=PathComplete
+Enemy moved=1.76 onMesh=True path=PathComplete
+SwordGuard_East_B moved=1.16 onMesh=True path=PathComplete
+### 7 errors
+attackBoxes=0 heroHP=25 timeScale=1
