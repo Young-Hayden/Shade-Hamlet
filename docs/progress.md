@@ -281,5 +281,17 @@
 
 - 注意：第二章 Task 2-5 仍未开始，本轮不涉及第二章。
 
+## 2026-11-14 第一章收尾 polish
+
+- [x] 夜景植被：新增两个本项目专用夜间材质，100 个草/灌木/花 Renderer 已覆盖，保留贴图并加入低强度补光；原 Synty 共享材质未改。
+- [x] 三盏灯笼均补上 `LanternArm`，连接挂钩与墙面，无碰撞、不影响 NavMesh。
+- [x] UI 越界复核：正确投影下没有 Overlay 控件真正越界；离屏角色的世界血条在屏幕外属正常，未改 UI。
+- 测试：植被 0/100→100/100，灯笼臂 0/3→3/3；截图与证据 `docs/verification/2026-11-14-chapter1-polish/`。
+- 报告：`docs/superpowers/reports/2026-11-14-chapter1-polish-verification.md`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-14_chapter1-polish\`；场景 MD5 `154103b8e911b95ad1c3aebf30a76d6e`。
+- 全量回归 **12/12 PASS**，三剧情路径全 PASS；暗部像素占比 36.3%→13.7%；最终编辑态、场景无未保存改动。
+- GitHub 上次提交 `2c02b91` 已在本地；github.com 可访问，但 token 轮换后凭据管理器要求重新登录，非交互推送返回 `unable to get password from user`。本次 polish 新改动尚未提交。
+
+
 
 

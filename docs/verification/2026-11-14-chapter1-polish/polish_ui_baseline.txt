@@ -1,0 +1,10 @@
+screen=969x497
+CANVAS InventoryCanvas mode=ScreenSpaceOverlay active=True
+CANVAS GameHUDCanvas mode=ScreenSpaceOverlay active=True
+CANVAS Order mode=ScreenSpaceOverlay active=True
+CANVAS HPCanvas mode=WorldSpace active=True
+CANVAS HPCanvas mode=WorldSpace active=True
+OFFSCREEN HPCanvas/Background rect=-118.6096,400.3309 -> -58.23466,407.815
+OFFSCREEN HPCanvas/Fill rect=-120.5776,400.2567 -> -56.51611,407.9101
+CANVAS HPCanvas mode=WorldSpace active=True
+done
