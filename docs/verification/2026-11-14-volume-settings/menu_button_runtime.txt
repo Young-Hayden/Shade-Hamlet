@@ -1,0 +1,3 @@
+startButton=True listeners=1
+t=0.5 overlay=True busy=True scene=RPG游戏
+final scene=RPG游戏 busy=False storyUi=True

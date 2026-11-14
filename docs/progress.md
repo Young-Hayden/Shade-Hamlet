@@ -317,6 +317,21 @@
 - 最终回归 **11/11 PASS**，三剧情路径全 PASS；修复后场景 MD5 `0bba043a98a82fccf3f2009b386e31b9`，`HeroDirectMovement.cs` MD5 `17a0ce1ebb2a831a63eafa25f9703d5e`。
 - 已提交并推送：`c43f8e4`（远程 `Shade-Hamlet/main` 已核对一致）；工作区干净。
 
+## 2026-11-14 音量设置
+
+- [x] 新增 `AudioSettings` 主音量服务（`AudioListener.volume` + `PlayerPrefs` `masterVolume`，启动前自动加载）。
+- [x] 主菜单新增“设置”按钮，打开统一 `VolumeSettingsPanel`；按钮顺序开始/设置/退出。
+- [x] 暂停菜单新增“音量设置”按钮；Esc 优先关闭音量面板再关暂停菜单。
+- [x] 面板包含主音量滑条、百分比、关闭；关闭时持久化。
+- [x] 顺带清理主菜单残留的旧 `Button (Legacy)`、`StartSubtitle`，补齐 `MenuSubtitle`。
+- 验证：主菜单与暂停菜单真实滑条均生效（35%/60%）、持久化、关闭回退、Esc 顺序通过。
+- 用户复测反馈修复：滑条原被 `RpgUI.CreateSlider` 设为不可交互且无手柄，已改为可交互并加 30×30 手柄；界面场景原本没有 AudioSource，已添加 `MenuMusic` 循环播放 BGM1；修正“主音量/百分比”文字跑出面板。
+- 真实指针拖拽验证：滑到 25% 后音量=0.25、标签 25%；菜单 BGM `isPlaying=True`。
+- 最终回归 **11/11 PASS**，三剧情路径全 PASS；`界面.scene` MD5 `d1c38646b9ed2ef48bdee53042cf9fc2`，`VolumeSettingsPanel.cs` MD5 `dab82d24cc89d650db2cde45ec2cc1ed`；未提交。
+- 报告：`docs/superpowers/reports/2026-11-14-volume-settings-verification.md`；截图/日志：`docs/verification/2026-11-14-volume-settings/`。
+- 最终回归 **11/11 PASS**，三剧情路径全 PASS；场景 MD5 `0bba043a98a82fccf3f2009b386e31b9`、`界面.scene` `0ad68effbe91add61cbd2302ca60ffa7`；未提交。
+
+
 - 未提交；等待用户确认后再同步发布副本并推送。
 
 

@@ -1,0 +1,23 @@
+RUN P1StealthTests
+RESULT P1StealthTests PASS
+RUN P1GuardSensesTests
+RESULT P1GuardSensesTests PASS
+RUN DirectMovementTests
+RESULT DirectMovementTests PASS
+RUN DirectAttackTests
+RESULT DirectAttackTests PASS
+RUN AssassinationTests
+RESULT AssassinationTests PASS
+RUN PotionRuntimeTests
+RESULT PotionRuntimeTests PASS
+RUN SmokeTests
+RESULT SmokeTests PASS
+RUN FullHudTests
+RESULT FullHudTests PASS
+RUN PauseMenuTests
+RESULT PauseMenuTests PASS
+RUN DeathFlowTests
+RESULT DeathFlowTests PASS
+RUN SceneSwitchProbe
+RESULT SceneSwitchProbe PASS
+SUMMARY [{"name": "P1StealthTests", "status": "PASS"}, {"name": "P1GuardSensesTests", "status": "PASS"}, {"name": "DirectMovementTests", "status": "PASS"}, {"name": "DirectAttackTests", "status": "PASS"}, {"name": "AssassinationTests", "status": "PASS"}, {"name": "PotionRuntimeTests", "status": "PASS"}, {"name": "SmokeTests", "status": "PASS"}, {"name": "FullHudTests", "status": "PASS"}, {"name": "PauseMenuTests", "status": "PASS"}, {"name": "DeathFlowTests", "status": "PASS"}, {"name": "SceneSwitchProbe", "status": "PASS"}]

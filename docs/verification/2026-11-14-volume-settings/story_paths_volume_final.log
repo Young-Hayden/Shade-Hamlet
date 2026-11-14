@@ -1,0 +1,7 @@
+RUN PATH kill
+RESULT kill PASS
+RUN PATH kill_after_truth
+RESULT kill_after_truth PASS
+RUN PATH spare
+RESULT spare PASS
+STORY_PATHS_SUMMARY {"kill": "PASS", "kill_after_truth": "PASS", "spare": "PASS"}

@@ -1,0 +1,6 @@
+PASS pause open
+PASS pause volume button
+PASS pause volume panel
+PASS pause slider audio=0.6 label=60%
+PASS close returns to pause
+PASS Escape closes settings first

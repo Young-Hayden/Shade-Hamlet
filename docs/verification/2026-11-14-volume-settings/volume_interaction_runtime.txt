@@ -1,0 +1,2 @@
+PASS menu music playing=True clip=BGM1
+PASS pointer drag value=0.25 audio=0.25 label=25% interactable=True handle=True

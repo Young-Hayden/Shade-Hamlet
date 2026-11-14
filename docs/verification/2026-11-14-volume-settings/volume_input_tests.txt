@@ -1,0 +1,2 @@
+PASS slider interactable=True
+PASS slider handle=True

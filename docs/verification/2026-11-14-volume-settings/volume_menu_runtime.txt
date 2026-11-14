@@ -1,0 +1,4 @@
+PASS settings button listeners=1
+PASS panel open=True slider=True
+PASS slider applied audio=0.35 label=35% stored=0.35
+PASS panel closes
