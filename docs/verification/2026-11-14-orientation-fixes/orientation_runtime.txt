@@ -1,0 +1,2 @@
+PASS runtime mouse pitch 0 -> 7.5 cameraMoved=0.4230516
+PASS bow remains held distToHand=0.141493 localRot=(0.00, 180.00, 0.00)

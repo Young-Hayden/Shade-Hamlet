@@ -1,0 +1,2 @@
+PASS mouse up increases pitch before=-5 after=0
+PASS bow flipped upright angleToY180=0 gripLocal=(0.00, 0.14, 0.00)

@@ -1,0 +1,3 @@
+PASS health bar world width=0.7679996
+PASS sneak state exists=True speed=0.55
+PASS attack motion=Sword-Attack-R6 damageEvents=1

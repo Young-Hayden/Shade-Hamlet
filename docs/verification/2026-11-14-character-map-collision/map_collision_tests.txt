@@ -1,0 +1,16 @@
+### actors vs map at current positions
+NpcElder overlaps=0
+Archer overlaps=0
+Enemy overlaps=0
+Hero overlaps=0
+PASS no actor intersects map at rest count=0
+### new detail obstacles represented in NavMesh
+Prop_Barrel walkableInside=False pos=(-0.51, 1.72, -1.89)
+SM_Env_TreeLog_01 walkableInside=False pos=(-32.17, 1.72, 18.80)
+SM_Env_Tree_03_Collider walkableInside=False pos=(-41.75, 2.45, 44.06)
+PASS solid details are NavMesh obstacles missing=0
+### hero walks into barrel
+minDist=0.5098364
+PASS hero blocked by barrel
+### live patrol map overlap scan (20s)
+PASS patrol agents do not intersect map uniquePairs=0

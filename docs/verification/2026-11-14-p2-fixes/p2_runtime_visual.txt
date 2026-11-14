@@ -1,0 +1,5 @@
+sneak clip=HumanoidWalk stateSpeed=0.55 stateHash=-1383648164 expected=-1383648164
+PASS runtime sneak state
+attack clip=Sword-Attack-R6 enemy hp 100 -> 80
+PASS single-hand attack deals damage
+PASS runtime health width=0.7680006

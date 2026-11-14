@@ -77,7 +77,7 @@ public class HeroCamera : MonoBehaviour
     public void ApplyLookDelta(Vector2 delta)
     {
         yaw += delta.x * mouseSensitivity;
-        pitch = Mathf.Clamp(pitch - delta.y * mouseSensitivity, minPitch, maxPitch);
+        pitch = Mathf.Clamp(pitch + delta.y * mouseSensitivity, minPitch, maxPitch);
     }
 
     private bool IsActor(Transform value)

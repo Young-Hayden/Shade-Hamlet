@@ -1,0 +1,13 @@
+t=1 dist=2.37 state=Chase arrowsMax=0 hp=100 isAttack=False invoking=False target=True
+t=2 dist=4.41 state=Chase arrowsMax=0 hp=100 isAttack=False invoking=False target=True
+t=3 dist=4.76 state=Chase arrowsMax=1 hp=95 isAttack=True invoking=True target=True
+t=4 dist=4.76 state=Chase arrowsMax=1 hp=95 isAttack=True invoking=True target=True
+t=5 dist=4.76 state=Chase arrowsMax=1 hp=95 isAttack=True invoking=True target=True
+t=6 dist=4.76 state=Chase arrowsMax=1 hp=90 isAttack=True invoking=True target=True
+t=7 dist=4.76 state=Chase arrowsMax=1 hp=90 isAttack=True invoking=True target=True
+t=8 dist=4.76 state=Chase arrowsMax=1 hp=85 isAttack=True invoking=True target=True
+t=9 dist=4.76 state=Chase arrowsMax=1 hp=85 isAttack=True invoking=True target=True
+t=10 dist=4.76 state=Chase arrowsMax=1 hp=80 isAttack=True invoking=True target=True
+t=11 dist=4.76 state=Chase arrowsMax=1 hp=80 isAttack=True invoking=True target=True
+t=12 dist=4.76 state=Chase arrowsMax=1 hp=80 isAttack=True invoking=True target=True
+PASS retreat then ranged damage maxDist=4.757805 arrowsMax=1 hp 100->80

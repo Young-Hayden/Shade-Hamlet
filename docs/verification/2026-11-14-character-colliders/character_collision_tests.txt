@@ -1,0 +1,13 @@
+### body colliders
+NpcElder type=NpcInteractor validBodyCollider=True colliders=1
+Archer type=EnemyController validBodyCollider=True colliders=1
+Enemy type=EnemyController validBodyCollider=True colliders=1
+Hero type=HeroController validBodyCollider=True colliders=2
+PASS every living actor has body collider missing=0
+NPC elder minDist=0.7800007 hero=(-13.96, 1.60, -22.09) target=(-13.96, 1.57, -21.31)
+PASS hero cannot walk through NPC elder
+captain minDist=0.8299999 hero=(-7.62, 1.60, -23.35) target=(-7.62, 1.56, -22.52)
+PASS hero cannot walk through captain
+### moving enemy approaches stationary hero
+minDist=4.403895 endEnemy=(-14.31, 1.56, -20.61) hero=(-14.00, 1.70, -25.00)
+PASS moving enemy cannot overlap hero

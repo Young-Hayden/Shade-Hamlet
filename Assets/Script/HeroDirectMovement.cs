@@ -85,13 +85,13 @@ public class HeroDirectMovement : MonoBehaviour
         // 状态机里 HumanoidWalk 带一条 walk==false 的退出过渡，AnyState 也由 walk 进入走路。
         // 直接模式若不维护这个布尔，CrossFade 进走路后会在 exitTime 被状态机打回 Idle，
         // 而下面的状态去重又不再重发 CrossFade，于是人物一直"站着滑行"（玩家看到的卡帧）。
-        hero.anim.SetBool("walk", moving && !running && !hero.isAttack);
+        hero.anim.SetBool("walk", moving && !running && !IsSneaking && !hero.isAttack);
         if (hero.isAttack)
         {
             requestedState = null;
             return;
         }
-        string desired = moving ? (running ? "HumanoidRun" : "HumanoidWalk") : "HumanoidIdle";
+        string desired = moving ? (IsSneaking ? "HumanoidSneak" : running ? "HumanoidRun" : "HumanoidWalk") : "HumanoidIdle";
         if (desired == requestedState) return;
         requestedState = desired;
         if (!hero.anim.HasState(0, Animator.StringToHash(desired)))

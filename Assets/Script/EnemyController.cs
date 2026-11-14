@@ -148,6 +148,8 @@ public class EnemyController : MonoBehaviour
     public void DoMove()
     {
         if (isDeath) return;
+        // 后撤期间目的地由 RangedAttack 独占，避免追击目标每帧覆盖后撤路径。
+        if (rangedAttack != null && rangedAttack.enabled && rangedAttack.IsRetreating) return;
 
         if (senses != null && senses.State == GuardState.Suspicious)
         {

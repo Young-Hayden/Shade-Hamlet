@@ -213,6 +213,72 @@
   - 截图归档：`docs/verification/2026-11-13-scene-detail/`；验收报告：`docs/superpowers/reports/2026-11-13-scene-detail-verification.md`。
   - 回滚：删除 5 个 `SceneDetails_*` 根节点，或还原 `D:\Unity\backups\RPG_Project_2026-11-13_scene-detail\`。
 
+## 2026-11-13 鼠标视角 + 全流程试玩审计
+
+用户要求：视角跟随鼠标、弓箭手武器浮空修复，并要求先完整试玩再一次性报告 bug。
+
+- [x] 鼠标锁定视角：`HeroCamera` 改为锁定光标，鼠标 X/Y 转 yaw/pitch（`minPitch=-30`、`maxPitch=70`），滚轮缩放保留；剧情/暂停/对话 `timeScale=0` 自动解锁，恢复后重新锁定；死亡/返回主菜单自动解锁。`ApplyLookDelta(Vector2)` 供测试调用。
+  - HUD 操作提示由"中键旋转"改为"鼠标视角"。
+- [x] 弓箭手弓浮空已修：`Archer/.../Hand_L/ArcherBowVisual` 本地偏移由 `(0.27,-0.02,0.80)`、旋转 90° 改为 `(-0.22,-0.65,0)`、identity；弓距左手 0.84m → 0.14m，拉弓/近战动画下贴手。
+- [x] 66 处柴火/长凳悬空或陷入地面已按地形高度修正；悬空扫描清零。
+- [x] 全流程试玩（脚本驱动）：剧情三线索→对峙→放走结局；背后刺杀成功；弓箭手近战/远程（箭周期生成）；潜行/藏草；烟雾/药水；暂停恢复；相机锁定与遮挡。日志与截图在 `C:\Users\22492\.claude\tools\audit\`。
+- [x] 回归：12/12 PASS；三剧情路径全 PASS；编译 0/0。
+- 报告：`docs/superpowers/reports/2026-11-13-rpg-playthrough-audit.md`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-13_mousecam_bow\`。
+- 场景 MD5 `bd3e352457e7b5f46d64895a84c8b27f`。
+- 遗留（报告 P2/P3，未修）：头顶血条过宽、潜行仍播普通走路动画、攻击动画双手剑而武器单手细剑、弓箭手近身不主动拉开射程、草丛夜景剪影、灯笼无连接臂、部分屋顶俯视可看穿、`Order/Button (Legacy)` 越界待核查。
+- 限制：脚本驱动试玩不等于真人键鼠，鼠标手感需用户实机确认。
+
+## 2026-11-14 P2 四项修复完成
+
+- [x] 三个世界空间血条统一缩小，主角世界宽度 1.536m → 0.768m。
+- [x] `heroController` 新增 `HumanoidSneak`（同走路剪辑、0.55 倍速），`HeroDirectMovement` 潜行移动进入该状态；运行时 stateSpeed=0.55。
+- [x] 主角攻击 motion 换成工程已有单手剑 `Sword-Attack-R6`，新 `.anim` 保留 `AttackEnemyEvent`（0.32s）；实测 HP 100→80，伤害未丢失。
+- [x] `RangedAttack.TryRetreat`：近身 3m 内沿完整 NavMesh 路径后撤，4.5m 恢复射击，无路径则不穿墙；实测后撤至 4.757m 后射箭，玩家 HP 100→80。
+- 验证：四项均先 RED 后 GREEN；既有 12 项回归 **12/12 PASS**，三剧情路径全 PASS。
+- 报告：`docs/superpowers/reports/2026-11-14-rpg-p2-fixes-verification.md`；证据：`docs/verification/2026-11-14-p2-fixes/`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-14_p2-fixes\`；场景 MD5 `987173be98efce82112690cc7c130765`。
+- 最终状态：编辑态、场景无未保存改动。真人手感仍待用户实机试玩。
+
+## 2026-11-14 鼠标上下与弓朝向修正
+
+- [x] 鼠标上下反转：`HeroCamera.ApplyLookDelta` 的 pitch 改为 `pitch + delta.y * sensitivity`；运行时鼠标上推 pitch 0→7.5，相机实际移动 0.423m。
+- [x] 弓朝向反转：`ArcherBowVisual` 绕本地 Y 轴翻转 180°，localPosition 同步镜像为 `(0.22,-0.65,0)`，握点仍 `(0,0.14,0)`；运行时距手 0.141m，未再次浮空。
+- 测试：修复前两项 FAIL，修复后静态/运行时均 PASS；证据 `docs/verification/2026-11-14-orientation-fixes/`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-14_mouse-bow-orientation\`。
+- 场景 MD5 `0b9a2cb2df06352e9534fe9b2daaa2e3`；`HeroCamera.cs` MD5 `4b59f36097e312d7118d55b1464ef8b1`。
+- 全量回归 **12/12 PASS**（`C:\Users\22492\.claude\tools\audit\regression_orientation.log`）；最终编辑态、场景无未保存改动。
+
+## 2026-11-14 人物碰撞体补全
+
+- [x] 实测所有人物：Hero 的 CharacterController、队长与弓箭手的 CapsuleCollider 均有效；玩家撞队长停在 0.83m，移动敌人不会穿过玩家。唯一缺口是老药师 `NpcElder` 无碰撞体，玩家可与其重合到距离 0。
+- [x] 老药师新增非触发 CapsuleCollider：height=2.4、radius=0.35、center=(0,1.2,0)；实测玩家最近停在 0.78m，所有存活人物均有有效身体碰撞。
+- 未改已有角色物理，避免重引入刚体推挤/尸体下坠问题；死亡后禁用碰撞仍保留（避免尸体挡路）。
+- 修复前：缺碰撞体 1、NPC 穿行 FAIL；修复后全部 PASS。证据：`docs/verification/2026-11-14-character-colliders/`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-14_npc-collider\`；场景 MD5 `dad785c435f4f0b4fb1a59d8a0056af6`。
+- 全量回归 **12/12 PASS**，三剧情路径全 PASS（`regression_npc_collider.log`、`story_paths_npc_collider.log`）。
+- 第二章暂不动工，等待用户给出需求后与第一章衔接。
+
+## 2026-11-14 人物与地图碰撞全面检查
+
+- 实测发现三类问题：① 队长/弓箭手胶囊中心 y=0.8、高 2.45，底部低于脚底约 0.425m，会插入土坡/地面；② 新增装饰只标 Batching/Occludee Static，未标 Navigation Static，NavMesh 自场景细节加入后一直未更新；③ 岩石顶部/斜坡被导航当成可行走面，弓箭手巡逻有 0.07–0.12m 瞬时擦入。
+- 已修：两个敌人胶囊统一 height=2.4、radius=0.4、center=(0,1.2,0)；125 个实体装饰标 Navigation Static 并重烘 NavMesh；27 个岩石增加 `NavMeshObstacle`（`carving=true`、`carveOnlyStationary=true`），土坡保留可行走。
+- 已验证：所有人物静止时地图穿插 0；木桶/树桩/边界树内部均不再可行走；玩家撞木桶停在 0.500m；20 秒实时巡逻人物与地图穿入 0；六条关键 NavMesh 路径全部完整。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-14_character-map-collision\`（场景与旧 NavMesh）。
+- 场景 MD5 `e5532d6b006634a432f4a1caef1aba86`；NavMesh MD5 `065bd3bb5b75d642c5601d1dac0a1a07`。
+- 报告：`docs/superpowers/reports/2026-11-14-character-map-collision-verification.md`；证据：`docs/verification/2026-11-14-character-map-collision/`。
+- 全量回归 **12/12 PASS**，三剧情路径全 PASS；最终 20 秒巡逻地图穿入 0，编辑态、场景无未保存改动。
+
+### 地图碰撞回归暴露的弓箭手卡死（已修）
+
+- 首轮回归 `P1ArcherEventOnlyTests` FAIL：后撤目的地被 `EnemyController.DoMove` 覆盖，且 NavMesh 最近点可能是当前位置，导致永远到不了后撤退出距离。
+- 修复：`RangedAttack.IsRetreating` 时 `DoMove` 不再覆盖目的地；候选点必须比当前位置多拉开 0.25m 且 `SetDestination` 成功，否则退出后撤并恢复射击。
+- 实测 1.5s 进入攻击、2.0s 出箭、2.25s HP 100→95。旧测试命中窗口 1.5s 过窄，仅调整为 3s，仍断言恰好一次命中；原测试已备份。
+- 最终全量回归 **12/12 PASS**，三剧情路径全 PASS（`regression_map_collision_final.log`、`story_paths_map_collision_final.log`）；真实后撤射击复测 HP 100→80。
+
+
+
+
 - 注意：第二章 Task 2-5 仍未开始，本轮不涉及第二章。
 
 

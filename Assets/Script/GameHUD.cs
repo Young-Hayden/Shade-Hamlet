@@ -109,7 +109,7 @@ public class GameHUD : MonoBehaviour
             new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 126f), new Vector2(760f, 42f));
         controlsHint = hintImage.gameObject.AddComponent<CanvasGroup>();
         controlsHint.blocksRaycasts = false;
-        RpgUI.CreateText("Text", hintImage.transform, "WASD 移动　Shift 奔跑　Ctrl 潜行　右键攻击　中键旋转　滚轮缩放　Q 药水　I 背包　G 烟雾　Esc 菜单", 20,
+        RpgUI.CreateText("Text", hintImage.transform, "WASD 移动　Shift 奔跑　Ctrl 潜行　右键攻击　鼠标视角　滚轮缩放　Q 药水　I 背包　G 烟雾　Esc 菜单", 20,
             Color.white, TextAnchor.MiddleCenter, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(750f, 34f));
 
         var assassinationImage = RpgUI.CreateImage("AssassinationPrompt", canvas.transform, panelSprite, new Color(1f, 1f, 1f, 0.9f),

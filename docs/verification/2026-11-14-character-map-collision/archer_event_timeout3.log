@@ -1,0 +1,3 @@
+RUN P1ArcherEventOnlyTests
+RESULT P1ArcherEventOnlyTests PASS
+SUMMARY [{"name": "P1ArcherEventOnlyTests", "status": "PASS"}]
