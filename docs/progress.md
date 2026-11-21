@@ -337,6 +337,41 @@
 
 - GitHub 已推送：`2c02b91`（操作/动画/碰撞）与 `ffd8d80`（第一章夜景与灯笼）；远程 `Shade-Hamlet` main 已核对为 `ffd8d80a6f5301bf52681d2917b2e5cfb0a38fed`。直连推送上传被重置，改走本机 Clash `127.0.0.1:7897` 代理成功。
 
+## 2026-11-21 工程材料归整与脚本注释
+
+用户要求：调取 Tuanjie 引擎在 RPG_Project 中整理全部材料，并给脚本加注释。本次只做目录与注释，不改玩法、不保存场景、不提交/推送。
+
+- [x] Assets 归整：脚本按 9 个模块分目录（Core/Player/Combat/Enemy/Stealth/Story/UI/Items/Legacy）；`Animation` → `Animations` 并规范 `Hero`/`Enemy`；`Perfabs`（拼写错误）合并进 `Prefabs`；`RPG/Materials` → `Art/Materials`；`RPG_Terrain.asset` → `Terrain/`；树碰撞预制体 → `Prefabs/Environment/`；删除空 `RPG/`。全部使用 `AssetDatabase.MoveAsset`，GUID 与场景引用保持不变；`MainAsset/` 第三方素材未动。
+- [x] 脚本注释：48 个自研脚本全部补中文 XML 文档注释（类/字段/方法）与关键逻辑行内注释；注释外代码与整理前逐文件比对，47 个完全一致，`StoryDirector` 仅枚举展开为多行（无语义变化）。
+- [x] 文档归整：新增 `docs/README.md`（总索引）、`docs/verification/README.md`（22 个证据目录索引）、`docs/项目材料清单-2026-11-21.md`（资产/脚本/文档清单）、`Assets/README.md`（目录说明）。
+- 验证：编译 0 错误 / 0 警告；`RPG游戏` 场景缺失组件 0；场景依赖 172 项缺失 0；地形仍指向 `Assets/Terrain/RPG_Terrain.asset`；动画控制器均可加载；场景 MD5 仍为 `0bba043a98a82fccf3f2009b386e31b9`（未保存、未改动）。
+- Play 冒烟：进入 Play 后 `director=Opening`、剧情字幕开启、`hero hp=100`、HUD 与 GameFlow 存在、场景缺失组件 0；停止 Play 后回到编辑态，场景无未保存改动。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-21_organize\`（354 个文件，48.68 MB）。
+- 已知遗留：两个 `Equipped Sword.prefab` 的历史缺失脚本引用未动；Hero/Enemy 下 4 个内容重复文件只归类未合并；工程根目录不是 Git 仓库，发布/推送仍走桌面 `GitHub提交/` 流程。
+
+## 2026-11-21 玩法冲突 / NPC 寻路 / 场景审计（只读）
+
+- 结论：NPC 寻路无功能性卡死；场景无缺失组件、穿模、越界或碰撞缺失；玩法/UI 存在 4 项可复现冲突。
+- 冲突：① 剧情暂停中关闭暂停菜单会把 `timeScale` 恢复为 1，剧情 UI 仍在（`PauseMenu.Toggle` 与 `StoryDirector.SetGameplayPaused` 各写各的）；② 剧情 UI 打开时背包/药水/烟雾仍可用；③ 暂停中右键攻击会锁定 `isAttack` 直到恢复；④ 死亡面板显示时背包仍可打开。
+- 寻路：5 个敌人 20 秒巡逻位移 35.17–38.39m，全部 onMesh/PathComplete，最大停滞 0.25s；队长到井边路径完整、3 秒移动 4.42m。唯一问题：`SwordGuard_East_B/Patrol_1` 距 NavMesh 1.12m，精确路径 Invalid，但会吸附到最近点并在 1.5m 换点阈值内正常换点，不会卡死。
+- 场景：建筑 22/22 有碰撞；人物静止与 20 秒巡逻穿插 0；实体装饰不可行走；道具/植被无实际悬空；AudioListener/Camera/EventSystem 各 1；两个场景均在 Build Settings。
+- 报告：`docs/superpowers/reports/2026-11-21-conflict-pathfinding-scene-audit.md`；证据：`C:\Users\22492\.claude\tools\rpg-1121\` 下的 `play_audit.txt`、`conflict_probe.txt`、`scene_static_audit.txt`、`path_probe.txt`、`prop_terrain_audit.txt`，以及 `C:\Users\22492\.claude\tools\audit\map_collision_tests.txt`。
+- 本次只读，未修改脚本、未保存场景；场景 MD5 仍为 `0bba043a98a82fccf3f2009b386e31b9`。修复建议见报告第 4 节，待批准后实施。
+
+## 2026-11-21 冲突修复与 bug 筛查
+
+用户批准修复后实施：统一输入闸门 + 暂停仲裁，并修正 East_B 巡逻点。
+
+- [x] 新增 `Core/GameplayInputGate.cs`：场景过渡、`timeScale<=0`、剧情 UI、死亡面板期间阻断玩法输入。
+- [x] `StoryDirector.IsGameplayPaused` + `PauseMenu.Instance`：关闭暂停时若剧情仍暂停则保持 `timeScale=0`；过渡期间禁止打开暂停；字幕/对话在暂停菜单打开时不推进。
+- [x] 主角攻击、药水、烟雾、背包、NPC/线索/刺杀/偷听及旧任务交互全部接入闸门；公开入口 `TryDirectAttack/TryUse/TryActivate/Toggle/CanInteract` 同样拦截。
+- [x] `SwordGuard_East_B/Patrol_1` 先吸附到最近 NavMesh 点，全量碰撞筛查发现该路线有 0.05m 地形穿插；经 30 秒候选点实跑后最终定在 `(27.00,1.60,8.00)`，与另两点距离 4.64/2.61m，最大穿地 0.026m、超阈值采样 0。
+- 修复后定点验证：字幕中关闭暂停 `timeScale=0`；对话中背包/药水/烟雾/攻击全部拒绝；死亡面板中背包拒绝；暂停中攻击 `isAttack=False`；攻击期水平位移 0.000m。
+- Bug 筛查：编译 **0/0**；玩法回归 **11/11 PASS**；剧情路径 **kill / kill_after_truth / spare 全部 PASS**；场景碰撞全 PASS（静止与 20 秒巡逻穿插 0）；全系统审计（动画/攻击/敌人状态机/寻路）通过。以上回归与三路径均在最终场景状态（`cb282353…`）复跑。
+- 场景 MD5：`0bba043a…` → `32166935…`（首次吸附）→ `cb282353…`（最终巡逻点）；最终编辑态、场景无未保存改动、`timeScale=1`。
+- 备份：`D:\Unity\backups\RPG_Project_2026-11-21_conflict-fix\`（117 个文件）。
+- 报告：`docs/superpowers/reports/2026-11-21-conflict-pathfinding-scene-audit.md` 第 7 节。
+
 
 
 
